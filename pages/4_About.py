@@ -39,20 +39,20 @@ col1, col2, col3 = st.columns(3)
 # Team Member 1
 with col1:
     st.write("**Team Lead**")
-    st.image("Team\lead profile.png", width=150) 
+    st.image("Team/lead profile.png", width=150) 
     st.markdown("**Ogunwole 'HANEZ' Olusegun**")
     st.caption("Python Developer & Data Analyst")
 
 # # Team Member 2
 with col2:
     st.write("**Member**")
-    st.image("Team\member1 profile.png", width=150)
+    st.image("Team/member1 profile.png", width=150)
     st.markdown("**Ogunwole 'SAINT' Olufemi**")
     st.caption("Data Scientist")
 
 # # Team Member 3
 with col3:
     st.write("**Member**")
-    st.image("Team\member2 profile.jpeg", width=150)
+    st.image("Team/member2 profile.jpeg", width=150)
     st.markdown("**Ogunmoroti 'ESTHER' Olapeju**")
     st.caption("Farmer & 3MTT AI/ML Fellow")
